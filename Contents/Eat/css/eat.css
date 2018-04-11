@@ -268,3 +268,11 @@ p{
 	 max-height: 1040px;
     overflow-y:scroll; 
 }
+
+.listul {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+.listul::-webkit-scrollbar { 
+    display: none;  // Safari and Chrome
+}
